@@ -1,23 +1,25 @@
 # Chess In C Programming Language
 This is an CLI based chess game made with C programming language. It complies with ANSI standard to improve compatibility and portability. Users can play this game just 
 
-## How It's Made:
-
 **Tech used:** C
 
-This game was writting 
+Tree data structure and BFS algorithm was used to evaluate all possible movements. Computer assess all possible positions in the movement tree and plays the most valuable movement. After each movement the board status is printed.
 
 ## Lessons Learned:
+- Tree data structure
+- BFS algorithm
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+## Compatibility
+The Box2D library and samples build and run on Windows, Linux, and Mac.
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+This project was written in ANSI C. So, you will need to use GCC.
 
-**Palettable:** https://github.com/alecortega/palettable
+## Building and installing
+- cd chess
+- make
+- ./chess (if you use Windows ./chess.exe)
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+## License
+This software was developed by Salih Sefa Özer and uses the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 
